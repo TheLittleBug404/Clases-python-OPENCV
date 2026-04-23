@@ -25,5 +25,26 @@ print(f"Nuevo saldo :::> {cuenta.saldo}")
 cuenta.retirar(150)
 print(f"Nuevo saldo retirado :::> {cuenta.saldo}")
 
+cuenta = CuentaBancaria("Jhenny",1000)
+print("Datos de la cuenta")
+print(f"Titular :::> {cuenta.titular}")
+print(f"Saldo   :::> {cuenta.saldo}")
+#quiero depositar dinero a mi cuenta
+cuenta.depositar(100)
+print(f"Nuevo saldo :::> {cuenta.saldo}")
+cuenta.retirar(150)
+print(f"Nuevo saldo retirado :::> {cuenta.saldo}")
+
+cuenta = CuentaBancaria("Nora",500)
+print("Datos de la cuenta")
+print(f"Titular :::> {cuenta.titular}")
+print(f"Saldo   :::> {cuenta.saldo}")
+#quiero depositar dinero a mi cuenta
+cuenta.depositar(100)
+print(f"Nuevo saldo :::> {cuenta.saldo}")
+cuenta.retirar(150)
+
+
+
 
     
